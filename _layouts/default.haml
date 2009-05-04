@@ -29,11 +29,12 @@
 
       .generic.nineforty
         %h1
-          ze goggles
+          %a{:href=>'/'}
+            ze goggles
       .generic.nineforty.end
-      .generic.threeforty
+      .generic.sixforty
         .content= content
-      .generic.threeforty
+      .generic.twoeighty.end
         / #tweets
         %h2
           recently on 
@@ -72,7 +73,7 @@
                 13 days ago
         
              
-      .generic.twotwenty.end
+        .generic.twoeighty.end
         %h2 
           elsewhere on the webs...
         %ul
@@ -100,13 +101,15 @@
           =link_to('they do nothing', 'http://www.youtube.com/watch?v=juFZh92MUOY')
           \&middot;
           %a{ :href => "/about.html", :title => "about" }
-            About          
+            about          
           \&middot;
           layout based on
           = link_to('typogridphy', 'http://csswizardry.com/typogridphy/')
           \&middot;            
           running on
-          = link_to('Jekyll', 'http://github.com/jberkel/jekyll')
+          = link_to('jekyll', 'http://github.com/jberkel/jekyll')
+          \&middot;            
+          it's the year 2009
 
               
     / %script{ :src => "http://www.google-analytics.com/urchin.js", :type => "text/javascript" }

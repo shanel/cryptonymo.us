@@ -12,15 +12,16 @@ layout: default
   -# Without the squiggly, Haml will indent highlighted code. 
   ~ content
   
-  #previous_and_next
-    - if page.next
-      %p
-        %strong Next:
-        =post_link(page.next)
-    - if page.previous
-      %p
-        %strong Previous:
-        =post_link(page.previous)
+  .clear
+    #previous_and_next
+      - if page.next
+        %p
+          %strong Next:
+          =post_link(page.next)
+      - if page.previous
+        %p
+          %strong Previous:
+          =post_link(page.previous)
   
   / #disqus_thread
   / %script{ :type => "text/javascript", :src => "http://disqus.com/forums/henrikn/embed.js" }

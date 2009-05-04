@@ -25,6 +25,10 @@ communicates with the rest of the world / the press / her parents) made me curio
 so I watched [Neverland: The Rise and Fall of the Symbionese Liberation Army](http://www.imdb.com/title/tt0884842/), 
 a documentary made in 2005. 
 
+<a href="http://upload.wikimedia.org/wikipedia/en/3/35/Patty_Hearst.jpg">
+  <img src="http://upload.wikimedia.org/wikipedia/en/3/35/Patty_Hearst.jpg" class="left-img"/>
+</a>
+
 The 'war against terror' caused a renewed interest in 70s american terrorist
 group such as the Symbionese Liberation Army (SLA). Some of the (now quite old) members of the SLA 
 recently got convicted, which led to the production of the documentary.
@@ -32,6 +36,8 @@ recently got convicted, which led to the production of the documentary.
 It's an interesting story (and  weird court case), a post-modern Robin Hood
 story and total media frenzy. As Wajeed
 (the creator of the mix tape) puts it:
+
+
 
 >The Patty Hearst story is one of America's greatest real life stories. It
 >almost seems fictional, but it's real life. ...  This group of revolutionaries
@@ -42,4 +48,5 @@ story and total media frenzy. As Wajeed
 >from the group being jailed or killed and she returns back home to "perfect"
 >life, as she calls it, and doing the talk show circuit.
 
-![http://en.wikipedia.org/wiki/File:Patty_Hearst.jpg](http://upload.wikimedia.org/wikipedia/en/3/35/Patty_Hearst.jpg)
+
+

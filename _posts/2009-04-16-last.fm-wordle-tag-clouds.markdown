@@ -12,4 +12,4 @@ Check it out on [zegoggles.com/wordle](http://zegoggles.com/wordle).
 
 Mine looks like this:
 
-![cloud](http://zegoggles.com/wordle/cdr_jameson.png)
+<img src="http://zegoggles.com/wordle/cdr_jameson.png" width="100%"/>
