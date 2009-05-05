@@ -5,7 +5,7 @@ This is the source code for generating the blog running on [zegoggl.es](http://z
 
 ## credits
 
-Jekyll was created by [Tom Preston-Werner](http://tom.preston-werner.com/). Most of the code plumbing everything together is based on Henrik's customised jekyll installation (haml, disqus, twitter integration etc). Thanks Henrik!
+Jekyll was created by [Tom Preston-Werner](http://tom.preston-werner.com/). Most of the code plumbing everything together is based on Henrik's customised jekyll-based site [henrik.nyh.se](http://github.com/henrik/henrik.nyh.se/) (haml, disqus, twitter integration etc). Thanks Henrik!
 
 The layout is based on Harry Roberts's excellent [typogridphy](http://csswizardry.com/typogridphy/).
 
