@@ -1,7 +1,7 @@
 require 'cgi'
 require 'lib/slugalizer'
 
-FEED_URL = "http://zegoggles.com/atom.xml"
+FEED_URL = "http://zegoggl.es/atom.xml"
 GA_ID    = "UA-7557066-1"
 
 module Helpers

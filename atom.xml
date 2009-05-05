@@ -5,21 +5,21 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>zegoggles</title>
- <link href="http://zegoggles.com/atom.xml" rel="self"/>
- <link href="http://zegoggles.com/"/>
+ <link href="http://zegoggl.es/atom.xml" rel="self"/>
+ <link href="http://zegoggl.es/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://zegoggles.com/</id>
+ <id>http://zegoggl.es</id>
  <author>
    <name>Jan Berkel</name>
-   <email>jan@zegoggles.com</email>
+   <email>jan.berkel@gmail.com</email>
  </author>
 
  {% for post in site.posts limit: 15 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://zegoggles.com{{ post.url }}"/>
+   <link href="http://zegoggl.es{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://zegoggles.com{{ post.id }}</id>
+   <id>http://zegoggl.es{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

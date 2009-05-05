@@ -8,8 +8,8 @@ creating last.fm tag clouds with wordle
 
 In order to play a bit with the [last.fm API](http://www.last.fm/api) and [sinatra](http://www.sinatrarb.com) I created a little microapp which lets you visualise your listening history (recent tracks, top tracks...) in a beautiful word cloud, using the well-known [wordle](http://www.wordle.net/) service.
 
-Check it out on [zegoggles.com/wordle](http://zegoggles.com/wordle).
+Check it out on [/wordle](http://zegoggl.es/wordle).
 
 Mine looks like this:
 
-<img src="http://zegoggles.com/wordle/cdr_jameson.png" width="100%"/>
+<img src="/wordle/cdr_jameson.png" width="100%"/>
