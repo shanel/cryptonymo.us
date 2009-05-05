@@ -1,7 +1,7 @@
 
-# zegoggles.com
+# zegoggl.es
 
-This is the source code for generating the blog running on [zegoggles.com](http://zegoggles.com). It needs a version of [jekyll](http://github.com/mojombo/jekyll) supporting haml layouts, see [Henrik Nyh's](http://henrik.nyh.se) repo on [github.com/henrik/jekyll](http://github.com/henrik/jekyll). 
+This is the source code for generating the blog running on [zegoggl.es](http://zegoggl.es). It needs a version of [jekyll](http://github.com/mojombo/jekyll) supporting haml layouts, see [Henrik Nyh's](http://henrik.nyh.se) repo on [github.com/henrik/jekyll](http://github.com/henrik/jekyll). 
 
 ## credits
 
