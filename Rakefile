@@ -1,6 +1,6 @@
 
 desc "deploy"
-task :deploy => [ :build ] do
+task :deploy => [ :clean, :build ] do
   sh "rsync -var  --checksum  _site/ zegoggles.com:/var/www/zegoggles.com"
 end
 

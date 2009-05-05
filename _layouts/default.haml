@@ -16,7 +16,6 @@
     %link{ :href => FEED_URL, :rel => "alternate", :title => "zegoggles.com", :type => "application/atom+xml" }
     
     %script{ :src => '/js/jquery.min.js', :type => 'text/javascript' }
-    / %script{ :src => '/js/jquery.cookie.js', :type => 'text/javascript' }
     %script{ :src => '/js/jquery.twitter.js', :type => 'text/javascript' }
     %script{ :src => '/js/app.js', :type => 'text/javascript' }
      
@@ -38,44 +37,13 @@
       .generic.sixforty
         .content= content
       .generic.twoeighty.end
-        / #tweets
+
         %h2
           recently on 
           %a{:href=>'http://twitter.com/jberkel', :rel=>'me'}
             twitter
-              
-        #foo{ :style => "display: block;" }
-          %ul#twitter_update_list{ :style => "display: block;" }
-            %li.firstTweet
-              %span
-                reading up on xfn microformats. there is even a way to mark up romantic relationships (rel="muse, crush, ..."). wtf?
-                %a{ :href => "http://tr.im/kq1z" }
-                  http://tr.im/kq1z
-              %a{ :href => "http://twitter.com/jberkel/statuses/1695272813", :style => "font-size: 85%;" }
-                about 4 hours ago
-            %li
-              %span
-                RT @
-                %a{ :href => "http://www.twitter.com/mikesten" }
-                  mikesten
-                \:Setting about organising London Twitter Hackers Meet No.1. Open to all.
-                %a{ :href => "http://tr.im/jlnN" }
-                  http://tr.im/jlnN
-              %a{ :href => "http://twitter.com/jberkel/statuses/1579910521", :style => "font-size: 85%;" }
-                12 days ago
-            %li.lastTweet
-              %span
-                thanks @
-                %a{ :href => "http://www.twitter.com/emmapersky" }
-                  emmapersky
-                \. it doesn't help that i now sit at @
-                %a{ :href => "http://www.twitter.com/petermacrobert" }
-                  petermacrobert
-                's desk :)
-              %a{ :href => "http://twitter.com/jberkel/statuses/1575820325", :style => "font-size: 85%;" }
-                13 days ago
-        
-             
+
+        #tweets                    
         .generic.twoeighty.end
         %h2 
           elsewhere on the webs...
@@ -125,7 +93,7 @@
           document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/zegoggles/get_num_replies.js' + query + '"></' + 'script>');
         })();
               
-    / %script{ :src => "http://www.google-analytics.com/urchin.js", :type => "text/javascript" }
-    / %script{ :type => "text/javascript" }
-    /   _uacct = "UA-7557066-1";
-    /   urchinTracker();
+      / %script{ :src => "http://www.google-analytics.com/urchin.js", :type => "text/javascript" }
+      / %script{ :type => "text/javascript" }
+      /   _uacct = "UA-7557066-1";
+      /   urchinTracker();
