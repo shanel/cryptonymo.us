@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+require 'erb'
+require 'fileutils'
+
+TEMPLATE = <<END
+---
+  title: <%= title %>
+---
+
+Write me...  [This is a link](http://somewhere.com/foo)
+
+END
+
+if __FILE__ == $0
+  title = ARGV[0] || "post title"
+
+  escaped_title = title.downcase.gsub(/\s/, '-')
+  tstamp = Time.now.strftime('%Y-%m-%d')
+  fname = "#{tstamp}-#{escaped_title}.markdown"
+
+  result = ERB.new(TEMPLATE, nil, '-').result(binding)
+
+  entry = File.join('_posts', fname)
+
+  File.open(entry, 'w') { |f| f << result }
+  puts "#{entry}"
+  #copy generated filename to clipboard so it can be
+  #quickly openend
+  if system("pbcopy -help 2> /dev/null")
+    IO.popen('pbcopy', 'r+') do |pipe|
+      pipe.write(entry)
+      pipe.close_write
+    end
+  end
+end
+
