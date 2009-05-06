@@ -2,7 +2,7 @@
   title: Jekyll vs Marley
 ---
 
-I really tried to like [marley](http://github.com/karmi/marley/), but in the
+I really tried to like [marley](/2009/03/setting-up-marley.html), but in the
 end it turned out to be quite painful, especially the deployment process with
 passenger. [Jekyll](http://github.com/mojombo/jekyll/) is the new kid on the
 block and can hardly be called a "blog engine". It's a minimalist blog aware static site
