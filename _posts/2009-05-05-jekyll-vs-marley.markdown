@@ -27,4 +27,4 @@ a breeze with auto-regeneration of pages and the integrated webrick support.
 
 There's another review on
 [oiledmachine.com](http://www.oiledmachine.com/posts/2008/12/27/overview-of-jekyll--a-static-site-generator-written-in-ruby.html)
-if you want to know more and and port called [hyde](http://github.com/lakshmivyas/hyde/), for those who prefer python.
+if you want to know more and a port called [hyde](http://github.com/lakshmivyas/hyde/), for those who prefer python.
