@@ -1,4 +1,4 @@
-$(function() {  
+$(document).ready( function () {  
   $("#tweets").getTwitter({
     userName: "jberkel",
     numTweets: 2,
@@ -7,11 +7,10 @@ $(function() {
     showProfileLink: false,
     rejectRepliesOutOf: 20
   });
-});
-
-(function($) {
+    
   $.getJSON("http://pipes.yahoo.com/pipes/pipe.run?_id=xL8fCU4_3hGJGTah3nBDOQ&_render=json&_callback=?",
     function (payload) {
+
       var items = payload['value']['items'];
       for (var i=0; i<items.length; i++) {
         var rating = "";        
@@ -34,6 +33,6 @@ $(function() {
         $("#currently-reading").append("<div class='clear'/>")         
       }
     });
+});
     
-})(jQuery);
-      
+
