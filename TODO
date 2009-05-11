@@ -2,3 +2,6 @@
 
  * DRY up some parameters (sitename, domain name, etc.)
  * smartypants / rubypants?
+ * use hAtom (http://microformats.org/wiki/hatom)
+ * custom 404 page
+ * transparent favico
