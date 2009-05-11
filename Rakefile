@@ -11,5 +11,5 @@ task :build do
 end
 
 task :clean do
-  rm_f '_site'
+  rm_rf '_site'
 end
