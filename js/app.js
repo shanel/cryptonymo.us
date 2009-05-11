@@ -1,7 +1,7 @@
 $(function() {  
   $("#tweets").getTwitter({
     userName: "jberkel",
-    numTweets: 3,
+    numTweets: 2,
     slideIn: false,
     showHeading: false,
     showProfileLink: false,
