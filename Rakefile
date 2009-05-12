@@ -13,3 +13,7 @@ end
 task :clean do
   rm_rf '_site'
 end
+
+task :server do
+  sh "jekyll --auto --server"
+end
