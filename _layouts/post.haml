@@ -2,10 +2,12 @@
 layout: default
 ---
 #post
+  
   =header page.title
-  %p.subtitle
+  %p.subtitle.metadata.vcard
     Published
-    = page.date.strftime("%B %d, %Y")
+    %abbr.published{:title=>page.date.iso8601}
+      = page.date.strftime("%B %d, %Y")
     / in
     / = tag_links(page.tags), "."
    

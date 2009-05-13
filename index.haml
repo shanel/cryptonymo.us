@@ -3,14 +3,23 @@ layout: default
 title: zegoggl.es
 ---
 #home
-  - site.collated_posts.sort.reverse.each do |year,months|
-    .year
-      %h2.year= year
-      - months.sort.reverse.each do |month,days|
-        %h3.month= Date::MONTHNAMES[month]
-        %ul.posts
-          - days.sort.reverse.each do |day,posts|
-            - posts.each do |post|
-              %li
-                %strong.date= "%02d" % day
-                = post_link(post)
+  %span.posts.hfeed
+    %address.vcard.author{:style=>'display:none;'}
+      %a{:class=>"url fn", :href=>"http://zegoggl.es"}
+        Jan Berkel
+        
+    - site.collated_posts.sort.reverse.each do |year,months|
+      .year
+        %h2.year= year
+        - months.sort.reverse.each do |month,days|
+          %h3.month= Date::MONTHNAMES[month]
+          %ul.posts      
+            - days.sort.reverse.each do |day,posts|
+              - posts.each do |post|
+                %li.hentry.entry
+                  %abbr.published{:title=>post.date.iso8601}
+                    %strong.date= "%02d" % day
+                  %span.entry-title
+                    %a{:href=>post.url, :rel=>'bookmark'}
+                      = h(post.title)
+                    
