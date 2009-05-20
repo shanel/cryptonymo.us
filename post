@@ -5,7 +5,7 @@ require 'fileutils'
 
 TEMPLATE = <<END
 ---
-  title: <%= title %>
+  title: "<%= title %>"
 ---
 
 Write me...  [This is a link](http://somewhere.com/foo)
