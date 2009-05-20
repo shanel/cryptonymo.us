@@ -1,1 +1,19 @@
 ErrorDocument 404 /404.html
+
+#force canonical hostname
+RewriteEngine on
+RewriteCond %{HTTP_HOST}   !^zegoggl\.es [NC]
+RewriteCond %{HTTP_HOST}   !^$
+RewriteRule ^/(.*) http://zegoggl.es/$1 [L,R=301]
+
+#fix up some old urls
+RewriteRule ^/phrase-nets.html$    2009/04/phrase-nets.html [L,R=301]
+RewriteRule ^/asking-google.html$    2009/03/many-eyes-google-suggest.html [L,R=301]
+RewriteRule ^/setting-up-marley.html$    2009/03/setting-up-marley.html [L,R=301]
+RewriteRule ^/generation-of-boys.html$ 2009/04/generation-of-boys-matt-damon.html [L,R=301]
+RewriteRule ^/integrating-vim-and-irb.html$ 2009/04/integrating-vim-and-irb.html [L,R=301]
+RewriteRule ^/sla.html$  2009/03/guerilla-taking-of-patty-hearst.html [L,R=301]
+
+RewriteRule ^/wordle$    lastfm_wordle [L,R=301]
+RewriteRule ^/feed$      feed.atom [L,R=302]
+RewriteRule %/atom.xml$  feed.atom [L,R=301]
