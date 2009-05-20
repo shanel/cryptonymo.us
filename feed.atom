@@ -1,28 +1,41 @@
 ---
 layout: nil
 ---
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>ze goggles</title>
- <link href="http://zegoggl.es/feed.atom" rel="self"/>
- <link href="http://zegoggl.es/"/>
+ <id>http://zegoggl.es/</id> 
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://zegoggl.es/</id>
+ 
+ <title type="text">ze goggles</title>
+ <subtitle type="text">they do nothing!</subtitle>
+ 
+ <link rel="self" href="http://zegoggl.es/feed.atom" type="application/atom+xml"/>
+ <link rel="alternate" type="text/html" href="http://zegoggl.es/"/>
+   
  <author>
    <name>Jan Berkel</name>
+   <uri>http://zegogg.es/about.html</uri>
    <email>jan.berkel@gmail.com</email>
  </author>
-
+ 
+ <generator version="0.5" uri="http://github.com/jberkel/jekyl">Jekyll</generator>
+   
  {% for post in site.posts limit: 15 %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://zegoggl.es{{ post.url }}"/>
-   <published>{{ post.date | date_to_xmlschema }}</published>
-   {% comment %} <updated>{{ post.date | date_to_xmlschema }}</updated> {% endcomment %}
    <id>http://zegoggl.es{{ post.id }}</id>
+   <published>{{ post.date | date_to_xmlschema }}</published>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+       
+   <title type="text">{{ post.title }}</title>
    <content type="html">{{ post.content | xml_escape }}</content>
+   
+   <link rel="alternate" href="http://zegoggl.es{{ post.url }}" type="text/html"/>
+   
+   <author>
+     <name>Jan Berkel</name>
+     <uri>http://zegogg.es/about.html</uri>
+     <email>jan.berkel@gmail.com</email>
+   </author>   
  </entry>
- {% endfor %}
- 
+ {% endfor %} 
 </feed>
