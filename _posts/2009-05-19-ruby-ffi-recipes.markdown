@@ -7,7 +7,8 @@
 
 The [Ruby FFI](http://kenai.com/projects/ruby-ffi) (Foreign Function Interface) provides a neat unified API for interfacing different flavours of Ruby (MRI, JRuby, Rubinius) with native C code. After reading Charles Nutter's recent blog post "[fork and exec on the JVM? JRuby to the Rescue!](http://blog.headius.com/2009/05/fork-and-exec-on-jvm-jruby-to-rescue.html)" I decided to have a play with it, mainly to launch console programs directly from a jirb session.
 
-Unfortunately, FFI is not documented at all, except for one or two outdated blog posts (one of them is "[On the Rubinius FFI](http://lifegoo.pluskid.org/?p=370)", then there some examples on the [kenai wiki](http://kenai.com/projects/ruby-ffi/pages/Examples)).
+Unfortunately, FFI is not documented at all, except for one or two outdated
+blog posts (one of them is "[On the Rubinius FFI](http://lifegoo.pluskid.org/?p=370)", then there are some examples on the [kenai wiki](http://kenai.com/projects/ruby-ffi/pages/Examples)).
 
 So here a quick blog posts with some common ffi recipes. Say you wanted to use fork+exec, as demonstrated by Charles, but you want to use [execlp/execvp](http://www.opengroup.org/onlinepubs/009695399/functions/execlp.html), two functions which use the path to look up the executable (as hinted at by the trailing *p* in their names).
 
