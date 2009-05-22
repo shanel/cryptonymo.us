@@ -1,5 +1,5 @@
 
-task :default => :deploy
+task :default => :server
 
 desc "deploy"
 task :deploy => [ :clean, :build ] do
