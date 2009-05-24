@@ -32,3 +32,5 @@ To improve the edit-irb workflow in vim a bit I use a modified version of [mkses
 So don't be an idiot and use this technique :)
 
 Update (15/05/09): Charles Nutter found a way to launch vi directly from jruby, using ffi ([fork and exec on the JVM? JRuby to the Rescue!](http://blog.headius.com/2009/05/fork-and-exec-on-jvm-jruby-to-rescue.html)). I've updated [irbrc](http://gist.github.com/98765) accordingly, it works well except on Mac OS X where exec fails intermittently. Haven't had time to figure out why, but couldn't replicate this problem on a Linux box.
+
+Update #2 (24/05/09): FFI on JRuby is a bit buggy (at least on Mac OS X), I filed a bug report ([JRUBY-3665](http://jira.codehaus.org/browse/JRUBY-3665)). It kind of works, but the invocation of vim fails from time to time on this platform.

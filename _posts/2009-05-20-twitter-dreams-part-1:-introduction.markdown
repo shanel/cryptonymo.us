@@ -24,4 +24,8 @@ It might sound weird to think of dreams in such analytical and rational terms, b
 
 So, in the following series of blog posts I'm going to show some interesting bits I've noticed while playing and visualising the data, although in a completely unscientific way.
 
+Update (23/05/09): I've just found [Tweet Dreams: A four-week survey of Twitter
+  dreams](http://www.dosenation.com/listing.php?id=6114), James Kent has done
+  some similar research on dreams, which is pretty much in line with my
+  findings.
 

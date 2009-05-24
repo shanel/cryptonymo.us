@@ -23,7 +23,7 @@ So... what is happening at the the end of the long tail?
 
 For example there is Tim Burton, [Kendra Wilkinson](http://en.wikipedia.org/wiki/Kendra_Wilkinson) and [Jamie Waylett](http://en.wikipedia.org/wiki/Jamie_Waylett). I had to look up the last two, Kendra Wilkinson is a model and former girlfriend of Hugh Hefner's, Jamie Waylett played a Slytherin in the Harry Potter movies and got recently arrested for possession of cannabis according to wikipedia. 
 
-Teen stars Miley Cyrus (pictured above with her dog 'Roadie') and Zac Efron are all over Twitter, probably helped by a large teenage twitter user base (however, the average age on twitter is 31, according to [Pew](http://www.socialmediatoday.com/SMC/78505)). Hollywood/Disney should consider making a film with both of them (and while they're at it, have with Britney Spears and John Mayer as supporting acts).
+Teen stars Miley Cyrus and Zac Efron are all over Twitter, probably helped by a large teenage twitter user base (however, the average age on twitter is 31, according to [Pew](http://www.socialmediatoday.com/SMC/78505)). Hollywood/Disney should consider making a film with both of them (and while they're at it, have with Britney Spears and John Mayer as supporting acts).
 
 Anyway, another interesting thing to look at is gender distribution. Intuitively I was expecting a female majority, but in reality male celebrities are overrepresented, they appear nearly twice as as often as women in dreams (~ 1.82). However this might be slightly skewed since there is no information about the author's gender (men tend to dream more about other men, "[The Dreams of Men and Women: Patterns of Gender Similarity and Difference](http://dreamresearch.net/Library/domhoff_2005c.html)").
 
