@@ -3,6 +3,11 @@
 require 'erb'
 require 'fileutils'
 
+if ARGV.empty?
+  STDERR.puts "usage: #{File.basename($0)} <title>"
+  exit 1
+end
+
 TEMPLATE = <<END
 ---
   title: "<%= title %>"
