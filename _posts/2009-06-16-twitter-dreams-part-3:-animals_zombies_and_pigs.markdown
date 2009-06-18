@@ -25,7 +25,7 @@ So: Zombies, Werewolves, Vampires: fight!
 
 ([dataset](http://tables.googlelabs.com/DataSource?dsrcid=24534/24534))
 
-Zombies are the undisputed leaders in this category, they occur in a lot of dreams. Are people fearing the [Zombie Apocalypse](http://en.wikipedia.org/wiki/Zombie_apocalypse])? There definitely is something very modern about the zombie myth, which is more present than older (or old-fashioned?) mythical creatures like vampires and werewolves.
+Zombies are the undisputed leaders in this category, they occur in a lot of dreams. Are people fearing the [Zombie Apocalypse](http://en.wikipedia.org/wiki/Zombie_apocalypse)? There definitely is something very modern about the zombie myth, which is more present than older (or old-fashioned?) mythical creatures like vampires and werewolves.
 
 You'll also notice regular spikes in the number reported dreams, which more or less coincide with weekends. People either dream more on weekends, or find more time to tweet about it the next day.
 
