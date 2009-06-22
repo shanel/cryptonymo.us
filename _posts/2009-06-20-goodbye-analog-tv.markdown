@@ -2,7 +2,8 @@
   title: "goodbye analog tv"
 ---
 
-The 12th of June 2009 marked the end for analog television in the Unites States. On that day all American TV stations switched their analog signals of.
+The 12th of June 2009 marked the end for analog television in the Unites
+States. On that day all American TV stations switched their analog signals off.
 The Federal Communications Comission (FCC) had decided that analog's time was over in what could be called a forced upgrade. They are now able to sell
 the unused frequencies in the analog spectrum, most likely for digital transmissions protocols like mobile broadband.
 
