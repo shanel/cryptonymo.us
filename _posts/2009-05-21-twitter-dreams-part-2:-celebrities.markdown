@@ -4,8 +4,7 @@
 
 Barack Obama, Miley Cyrus, Zac Efron.
 
-
-<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/line-chart.xml&up__table_query_url=http://tables.googlelabs.com/gvizdata?tq=select+col0%252Ccol1+from+22075++order+by+col1+desc+limit+15+&up__table_query_refresh_interval=1&w=600&h=400&border=%23ffffff%7C3px%2C1px+solid+%23999999&output=js">
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/line-chart.xml&up__table_query_url=http://tables.googlelabs.com/gvizdata?tq=select+col0%252Ccol1+from+22075++order+by+col1+desc+limit+15+&up__table_query_refresh_interval=1&w=600&h=400&border=%23ffffff%7C3px%2C1px+solid+%23999999&output=js&synd=open">
 </script>
 <a href="http://tables.googlelabs.com/DataSource?dsrcid=22075/22075">(dataset)</a>
 

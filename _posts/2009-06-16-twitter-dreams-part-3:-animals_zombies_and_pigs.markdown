@@ -9,7 +9,7 @@ Below you'll see the distribution of the most common animals in dreams reported 
 From my own dreams I definitely remember some involving snakes, but not cats or fishes. Still, animals are powerful symbols in many cultures, for example in Native American or Chinese mythology. There's a also whole bunch of interpretations for dreams involving animals, but I won't go into there now.
 
 <script
-src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/line-chart.xml&up__table_query_url=http://tables.googlelabs.com/gvizdata?tq=select+col0%252Ccol1+from+24427+where+col1%253E'10'+order+by+col1+desc+limit+15&up__table_query_refresh_interval=0&w=600&h=400&border=%23ffffff%7C3px%2C1px+solid+%23999999&output=js">
+src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/line-chart.xml&up__table_query_url=http://tables.googlelabs.com/gvizdata?tq=select+col0%252Ccol1+from+24427+where+col1%253E'10'+order+by+col1+desc+limit+15&up__table_query_refresh_interval=0&w=600&h=400&border=%23ffffff%7C3px%2C1px+solid+%23999999&output=js&synd=open">
 </script>
 
 ([dataset](http://tables.googlelabs.com/DataSource?dsrcid=24427/24427))

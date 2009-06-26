@@ -16,4 +16,3 @@ RewriteRule ^/?sla.html$  /2009/03/guerilla-taking-of-patty-hearst.html [L,R=301
 
 RewriteRule ^/?wordle$    /lastfm_wordle [L,R=301]
 RewriteRule ^/?feed$      /feed.atom [L,R=302]
-RewriteRule ^/?atom.xml$  /feed.atom [L,R=301]
