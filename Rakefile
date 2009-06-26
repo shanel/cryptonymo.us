@@ -17,3 +17,11 @@ end
 task :server do
   sh "jekyll --auto --server"
 end
+
+task :push do
+  system "git diff --quiet HEAD"
+  raise "uncommited changes detected, commit first!" unless $?.success?
+
+  sh "git push"
+  sh "git push github"
+end
