@@ -10,6 +10,7 @@ task :build do
   sh "jekyll"
 end
 
+desc "clean"
 task :clean do
   rm_rf '_site'
 end
