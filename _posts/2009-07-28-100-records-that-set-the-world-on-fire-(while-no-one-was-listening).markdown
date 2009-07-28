@@ -14,9 +14,9 @@ List obtained from different places ([1](http://www.fastnbulbous.com/wire100.htm
 Enjoy!
 
 * [Charles Ives](http://open.spotify.com/artist/73s17iW5LTtXRMVoofi9sU) - Symphony No. 4 (1910-16) (Grammophon, 1988)
-* [Blind Willie Johnson](http://open.spotify.com/artist/5kO4xdEKLuHHHPreu3UmkZ) - [Dark Was The Night, Cold Was The Ground](http://open.spotify.com/album/3H90ji25FlT62CztiEOhrt) (Columbia, 1929)
+* Blind Willie Johnson - [Dark Was The Night, Cold Was The Ground](http://open.spotify.com/album/3H90ji25FlT62CztiEOhrt) (Columbia, 1929)
 * Bob Graettinger - City Of Glass/This Modern World (Capitol, 1953)
-* Louis & Bebe Barron - [Forbidden Planet OST Small Planet](http://open.spotify.com/album/3zQQtu3a9Y7ZEDAKcftznw) (Small Planet 1956) 
+* Louis & Bebe Barron - [Forbidden Planet OST](http://open.spotify.com/album/3zQQtu3a9Y7ZEDAKcftznw) (Small Planet, 1956) 
 * [Esquivel And His Orchestra](http://open.spotify.com/artist/42kHi9ZIpRGtgjP8ZB4jsi) - Other Worlds Other Sounds (RCA, 1958)
 * The Blue Men - I Hear A New World (RGM White Label/RPM, 1960)
 * [Joe Harriott](http://open.spotify.com/artist/5tNoK2u8Dy9r46ROj9C9Lb) - Abstract (Columbia/Capitol, 1961)
