@@ -9,7 +9,7 @@ From the Wire #175, September 1998: [100 Records That Set The World On Fire](htt
 >along the way."
 		
 		
-List obtained from different places ([1](http://www.fastnbulbous.com/wire100.htm), [2](http://www.listology.com/feif-umgotnn/list/wires-100-albums-set-world-fire-while-no-one-was-listening-30-runners-were-left-ou)). Where the album was available on Spotify I linked the album, otherwise the artist. 
+List obtained from different places ([1](http://www.fastnbulbous.com/wire100.htm), [2](http://www.listology.com/feif-umgotnn/list/wires-100-albums-set-world-fire-while-no-one-was-listening-30-runners-were-left-ou)). Where the album was available on Spotify I linked the album, otherwise the artist. If you need more strucured data, check the [Google docs spreadsheet](http://spreadsheets.google.com/ccc?key=0At-v8_qu4q4VdC10UGtRbEp2ZWlyb3ZmUHhidTBtMkE). I'm in the process of autogenerating and annotating this list with information from different sources, but it's not quite ready yet.
 
 Enjoy!
 
