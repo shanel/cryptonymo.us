@@ -1,5 +1,5 @@
 ---
-  title: "twitter-dreams part 2: celebrities"
+  title: "twitter dreams part 2: celebrities"
 ---
 
 Barack Obama, Miley Cyrus, Zac Efron.

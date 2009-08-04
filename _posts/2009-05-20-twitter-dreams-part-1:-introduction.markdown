@@ -1,5 +1,5 @@
 ---
-  title: "twitter-dreams part 1: introduction"
+  title: "twitter dreams part 1: introduction"
 ---
 
 Twitter has sometimes been described as a new form of collective, connected consciousness, some people compare it to the human brain, drawing an analogy between neurons firing and tweets propagating through the network.

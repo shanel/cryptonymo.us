@@ -15,16 +15,16 @@ So here a quick blog posts with some common ffi recipes. Say you wanted to use f
 Here's the function definition for execlp:
 
 <pre>
-  <code class="c">
+  <code class="c++">
     int execlp(const char *file, const char *arg0, ... /*, (char *)0 */);
-  </code class="c">
+  </code>
 </pre>
 
 A string (*file*), another string (*arg0*) followed by varargs (...), follwowed by NULL, returning int.
 This translates into the following FFI glue code:
 
 <pre>
-  <code class="ruby">
+  <code>
   Module Exec
     extend FFI::Library
     attach_function :execlp, [:string, :string, :varargs], :int        
@@ -35,7 +35,7 @@ This translates into the following FFI glue code:
 Pretty straightforward, right? Now you can use the C function from Ruby:
 
 <pre>
-  <code class="ruby">
+  <code>
   Exec.execlp("vim", "vim", [:string, "/tmp/foo", :pointer, nil])
   </code>
 </pre>
@@ -46,16 +46,16 @@ My first advice: if you've got a choice between a varargs method and *char[], us
 Now to execvp, which does the same as execlp, but using an argument vector (v) instead of a list (l). The C function definition reads:
 
 <pre>
-  <code class="c">
+  <code>
     int execvp(const char *file, char *const argv[]);
-  </code class="c">
+  </code>
 </pre>      
   
   
 Which translates to:
 
 <pre>
-  <code class="ruby">
+  <code>
   Module Exec
     extend FFI::Library
     attach_function :execvp, [:string, :pointer], :int
@@ -66,7 +66,7 @@ Which translates to:
 One string, one pointer. The pointer is the tricky bit. You can *not* just pass an array of Ruby strings like so:
 
 <pre>
-  <code class="ruby">
+  <code>
     Exec.execvp("vim", ["vim", "/tmp/foo", nil]) 
   </code>
 </pre>
@@ -90,8 +90,6 @@ No, you need to *manually* create a pointer pointing to an array of pointers (*y
   </code>
 </pre>
 
-
-<img src="http://tineye.com/query/94bd2df044eb69e36e9e76c950bae64f17ab29dd" alt="shoot-foot" class="left-img"/>
 The fun of C ! Pointers to other pointers ! And it will even randomly crash if you make a mistake! 
 
 The varargs version is a lot simpler, and has less scope to shoot yourself in the foot (well, you're now using C, so technically it's too late anyway). The good news: most people probably won't need to write FFI code, eventually the important C-based tools / libraries will have an FFI-layer provided by someone else. However, as FFI is quite new this is not the case for all of them yet.
