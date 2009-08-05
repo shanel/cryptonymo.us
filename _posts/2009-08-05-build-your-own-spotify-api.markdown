@@ -17,7 +17,7 @@ The companies involved at music hack day all offer APIs. My favourite moment of 
 asks what data I needed to get out of their API. I explain it to him, he walks off and an hour later the requested geodata was made available in 
 their API! 
 
-One notable European music company missing at hackday was [Spotify](http://spotify.com). Since the Swedish company launched their ad-supported
+One notable European music company missing at hack day was [Spotify](http://spotify.com). Since the Swedish company launched their ad-supported
 streaming service end of last year it has at times been labeled as "game-changer" of the music business or otherwise as "iTunes killer".
 A slick interface and fast P2P streaming makes accessing remote music on-demand indistinguishable from a locally stored music library.
 
@@ -36,13 +36,13 @@ an open-source (C-based) library which made it possible to access Spotify's serv
 active projects.
 
 While writing my last blog post (<a href="/2009/07/100-records-that-set-the-world-on-fire-(while-no-one-was-listening).html">100 records...</a>)
-I spent most of the time manually searching Spotify urls for the albums and artists in the playlists. A program could have done the same job
-in a couple of seconds! 
+I spent most of the time manually searching Spotify urls for the albums and artists in the playlists, a boringjob a program could have done in a matter of 
+seconds.
 
 So I took another look at the existing open-source libraries and found [jotify](http://jotify.felixbruns.de/), which is currently the most advanced
 implementation (it supports the feature I was looking for, creation of playlists). It is written in Java, so it was very easy to use integrate
 in JRuby. I decided to use sinatra to give it a rest-based API so it can be used from other services. The result is 
-[spotify-api](http://github.com/jberkel/spotify-api/), a json-speaking API for spotify! Like despotify it needs a
+[spotify-api](http://github.com/jberkel/spotify-api/), a json-speaking API for spotify. Like despotify it needs a
 [premium](http://www.spotify.com/en/products/premium/) account to work, but I'm happy to pay for a service without ads *and* an API.
 
 The API is not complete and it's the first release, but it's all there is until the "official" API arrives (if it does at all, it has been announced/promised
