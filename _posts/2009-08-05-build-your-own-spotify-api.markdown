@@ -36,7 +36,7 @@ an open-source (C-based) library which made it possible to access Spotify's serv
 active projects.
 
 While writing my last blog post (<a href="/2009/07/100-records-that-set-the-world-on-fire-(while-no-one-was-listening).html">100 records...</a>)
-I spent most of the time manually searching Spotify urls for the albums and artists in the playlists, a boringjob a program could have done in a matter of 
+I spent most of the time manually searching Spotify urls for the albums and artists in the playlists, a boring job a program could have done in a matter of 
 seconds.
 
 So I took another look at the existing open-source libraries and found [jotify](http://jotify.felixbruns.de/), which is currently the most advanced

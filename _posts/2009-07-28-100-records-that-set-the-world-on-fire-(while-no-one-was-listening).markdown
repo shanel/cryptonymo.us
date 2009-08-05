@@ -2,7 +2,8 @@
   title: "100 Records That Set The World On Fire (while no one was listening)"
 ---
 
-From the Wire #175, September 1998: [100 Records That Set The World On Fire](http://www.thewire.co.uk/issues/175/).
+From the Wire #175, September 1998: [100 Records That Set The World On Fire](http://www.thewire.co.uk/issues/175/) 
+([scans](http://web.archive.org/web/20070613181856/www.rtxarchive.com/archive/articles/wire175_1_scans.html)).
 
 >"In The Wire 175, we polled our writers to nominate records that
 >should have ignited the world's imagination - but somehow got forgotten
