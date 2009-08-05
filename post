@@ -21,7 +21,7 @@ END
 if __FILE__ == $0
   title = ARGV[0] || "post title"
 
-  escaped_title = (title.downcase.gsub(/\s/, '-')
+  escaped_title = (title.downcase.gsub(/\s/, '-'))
   tstamp = Time.now.strftime('%Y-%m-%d')
   fname = "#{tstamp}-#{escaped_title}.markdown"
 
