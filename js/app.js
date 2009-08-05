@@ -15,7 +15,7 @@ $(document).ready( function () {
       for (var i=0; i<items.length; i++) {
         var rating = "";        
         var rCount = parseInt(items[i]['user_rating'], 10);
-        if (rCount != NaN) {
+        if (rCount > 0) {
           rating += " (";
           for (var r=0; r<rCount; r++) {
             rating += "&#9733;";                
