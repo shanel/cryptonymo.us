@@ -1,5 +1,5 @@
 --- 
-title: The world's questions... many eyes on google suggest.
+title: the world's questions... many eyes on google suggest.
 categories: 
 - infoviz
 - google
@@ -8,14 +8,20 @@ layout: post
 
 Visualising results from google suggest.
 
-I've been meaning to play around with the [google suggest api](http://blogoscoped.com/archive/2006-08-17-n22.html) for quite a while, and was also quite curious about IBM's collaborative visualisation platform [many eyes](http://manyeyes.alphaworks.ibm.com/). 
+I've been meaning to play around with the [google suggest api](http://blogoscoped.com/archive/2006-08-17-n22.html) 
+for quite a while, and was also quite curious about IBM's collaborative visualisation platform 
+[many eyes](http://manyeyes.alphaworks.ibm.com/). 
 
 Google suggest has been around for a long time (as part of google labs), but only recently got 
 integrated by default into google search (["At a loss for
-words?"](http://googleblog.blogspot.com/2008/08/at-loss-for-words.html)). It's a fascinating data source, because it reflects how (at least the majority) of users interact with google. See ["An Expirement (sic) with Google Suggest"](http://digg.com/tech_news/An_Expirement_with_Google_Suggest) for some
-(sometimes scary) examples.
+words?"](http://googleblog.blogspot.com/2008/08/at-loss-for-words.html)). It's a fascinating data source, because it 
+reflects how (at least the majority) of users interact with google. See 
+["An Expirement (sic) with Google Suggest"](http://digg.com/tech_news/An_Expirement_with_Google_Suggest) for some
+ (sometimes scary) examples.
 
-I wrote a small [ruby script](http://github.com/jberkel/playground/tree/master/suggest_tree) to recursively get a list of popular queries, starting of with some simple questions like "why is..." / "how do...", then fed the data into the [word tree](http://manyeyes.alphaworks.ibm.com/manyeyes/page/Word_Tree.html) visualisation provided by many eyes.
+I wrote a small [ruby script](http://github.com/jberkel/playground/tree/master/suggest_tree) to recursively get a list 
+of popular queries, starting of with some simple questions like "why is..." / "how do...", then fed the data into
+ the [word tree](http://manyeyes.alphaworks.ibm.com/manyeyes/page/Word_Tree.html) visualisation provided by many eyes.
 
 Here are some examples, with comments (clicking on an image will take you to the interactive visualisation):
 
@@ -34,7 +40,9 @@ Google, tell me! Please!
 <img src="http://images1.wikia.nocookie.net/wowwiki/images/2/2f/Howling_Fjord.JPG" class="right-img" alt="Howling Fjord"/>
 </a>
 
-What really surprised me here was that *most* of the places people try to get to appear to be situated in virtual/game worlds (Super Mario / WoW ...?). So "how do you get to howling fjord" I hear you ask. It's really easy, just follow the Grizzly Hills, it's behind there, situated in southeastern Northrend.
+What really surprised me here was that *most* of the places people try to get to appear to be situated in virtual/game worlds
+(Super Mario / WoW ...?). So "how do you get to howling fjord" I hear you ask. It's really easy, just follow the Grizzly Hills, it's
+behind there, situated in southeastern Northrend.
 
 <div class="clear">
 </div>
