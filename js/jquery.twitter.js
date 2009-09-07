@@ -40,20 +40,32 @@
 
     // show container element
     $(this).show();
-  
-    $.getScript("http://twitter.com/javascripts/blogger.js");
     
-    $.getTwitterCallback = function(tweets) {
-  	  if (o.rejectRepliesOutOf) {
-  	    tweets = $.grep(tweets, function(tweet) { return !tweet.in_reply_to_user_id }).slice(0, o.numTweets);
-  	  }
-      twitterCallback2(tweets);
-  	};
-    
-$.getScript("http://twitter.com/statuses/user_timeline/"+o.userName+".json?callback=jQuery.getTwitterCallback&count="+(o.rejectRepliesOutOf || o.numTweets), function() {
+    $.getJSON("http://twitter.com/statuses/user_timeline/"+o.userName+".json?count="+(o.numTweets+10)+"&callback=?", 
+      function(tweets) {
+        
       // remove preLoader from container element
       $(pl).remove();
 
+      if (o.rejectRepliesOutOf) {
+    	  tweets = $.grep(tweets, function(tweet) { return !tweet.in_reply_to_user_id; }).slice(0, o.numTweets);
+    	}
+    	  
+      var statusHTML = [];
+      for (var i=0; i<tweets.length; i++){
+        var username = tweets[i].user.screen_name;
+        var status = tweets[i].text.replace(/((https?|s?ftp|ssh)\:\/\/[^"\s\<\>]*[^.,;'">\:\s\<\>\)\]\!])/g, function(url) {
+          return '<a href="'+url+'">'+url+'</a>';
+        }).replace(/\B@([_a-z0-9]+)/ig, function(reply) {
+          return  reply.charAt(0)+'<a href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+        });
+        statusHTML.push('<li><span>'+
+          status+'</span> <a style="font-size:85%" href="http://twitter.com/'+username+'/statuses/'+tweets[i].id+'">'+
+            $.fn.getTwitter.relative_time(tweets[i].created_at)+
+          '</a></li>');
+      }
+      document.getElementById('twitter_update_list').innerHTML = statusHTML.join('');
+      
       // show twitter list
       if (o.slideIn) {
         $("ul#twitter_update_list").slideDown(1000);
@@ -82,5 +94,30 @@ $.getScript("http://twitter.com/statuses/user_timeline/"+o.userName+".json?callb
     showProfileLink: true,
     rejectRepliesOutOf: false
   };
+  
+  $.fn.getTwitter.relative_time = function(time_value) {
+    var values = time_value.split(" ");
+    time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+    var parsed_date = Date.parse(time_value);
+    var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+    var delta = parseInt((relative_to.getTime() - parsed_date) / 1000, 10);
+    delta = delta + (relative_to.getTimezoneOffset() * 60);
+
+    if (delta < 60) {
+      return 'less than a minute ago';
+    } else if(delta < 120) {
+      return 'about a minute ago';
+    } else if(delta < (60*60)) {
+      return (parseInt(delta / 60, 10)).toString() + ' minutes ago';
+    } else if(delta < (120*60)) {
+      return 'about an hour ago';
+    } else if(delta < (24*60*60)) {
+      return 'about ' + (parseInt(delta / 3600, 10).toString() + ' hours ago');
+    } else if(delta < (48*60*60)) {
+      return '1 day ago';
+    } else {
+      return (parseInt(delta / 86400, 10)).toString() + ' days ago';
+    }
+  }
   
 })(jQuery);
