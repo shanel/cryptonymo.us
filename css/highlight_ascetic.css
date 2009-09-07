@@ -6,7 +6,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 
 pre code {
   display: block;
-  background: white; color: black;
+  background: #eee; color: black;
   border: solid #CCC 1px;
   margin-bottom: 5px;
 }

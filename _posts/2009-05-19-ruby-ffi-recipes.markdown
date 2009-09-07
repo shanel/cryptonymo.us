@@ -22,7 +22,7 @@ Here's the function definition for execlp:
 
 <pre>
   <code class="c++">
-    int execlp(const char *file, const char *arg0, ... /*, (char *)0 */);
+  int execlp(const char *file, const char *arg0, ... /*, (char *)0 */);
   </code>
 </pre>
 
@@ -58,7 +58,7 @@ list (l). The C function definition reads:
 
 <pre>
   <code>
-    int execvp(const char *file, char *const argv[]);
+  int execvp(const char *file, char *const argv[]);
   </code>
 </pre>      
   
@@ -78,7 +78,7 @@ One string, one pointer. The pointer is the tricky bit. You can *not* just pass 
 
 <pre>
   <code>
-    Exec.execvp("vim", ["vim", "/tmp/foo", nil]) 
+  Exec.execvp("vim", ["vim", "/tmp/foo", nil]) 
   </code>
 </pre>
     
@@ -86,18 +86,18 @@ No, you need to *manually* create a pointer pointing to an array of pointers (*y
 
 <pre>
   <code class="ruby">
-    strptrs = []
-    strptrs << FFI::MemoryPointer.from_string("vim")
-    strptrs << FFI::MemoryPointer.from_string("/tmp/foo")
-    strptrs << nil
+  strptrs = []
+  strptrs << FFI::MemoryPointer.from_string("vim")
+  strptrs << FFI::MemoryPointer.from_string("/tmp/foo")
+  strptrs << nil
 
-    # Now load all the pointers into a native memory block
-    argv = FFI::MemoryPointer.new(:pointer, strptrs.length)
-    strptrs.each_with_index do |p, i|
-     argv[i].put_pointer(0,  p)
-    end
+  # Now load all the pointers into a native memory block
+  argv = FFI::MemoryPointer.new(:pointer, strptrs.length)
+  strptrs.each_with_index do |p, i|
+   argv[i].put_pointer(0,  p)
+  end
 
-    Exec.execvp("vim", argv)
+  Exec.execvp("vim", argv)
   </code>
 </pre>
 
