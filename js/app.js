@@ -27,7 +27,9 @@ $(document).ready( function () {
         $("#currently-reading").append("<p>&laquo;" + "<a href='" + items[i]['link'] + "'>" + items[i]['y:title'] + "</a>"+ "&raquo;" +
           " by " + items[i]['author_name']  + rating + "</p>");
 
-        $("#currently-reading").append("<blockquote>&ldquo;" + items[i]['user_review'] + "&rdquo;</blockquote>");
+        if (items[i]['user_review'] !== null) {
+          $("#currently-reading").append("<blockquote>&ldquo;" + items[i]['user_review'] + "&rdquo;</blockquote>");
+        }
 
         $("#currently-reading").append("</div>")            
         $("#currently-reading").append("<div class='clear'/>")         
