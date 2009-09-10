@@ -24,5 +24,4 @@ task :push do
   raise "uncommited changes detected, commit first!" unless $?.success?
 
   sh "git push"
-  sh "git push github"
 end
