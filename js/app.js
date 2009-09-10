@@ -1,6 +1,6 @@
 $(document).ready( function () {  
   $("#tweets").getTwitter({
-    userName: "jberkel",
+    userName: "shanel",
     numTweets: 2,
     slideIn: false,
     showHeading: false,

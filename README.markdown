@@ -1,7 +1,7 @@
 
-# zegoggl.es
+# cryptonymo.us
 
-This is the source code for generating the blog running on [zegoggl.es](http://zegoggl.es). It needs a version of [jekyll](http://github.com/mojombo/jekyll) supporting haml layouts, see [Henrik Nyh's](http://henrik.nyh.se) repo on [github.com/henrik/jekyll](http://github.com/henrik/jekyll). 
+This is the source code for generating the blog running on [cryptonymo.us](http://cryptonymo.us). It needs a version of [jekyll](http://github.com/mojombo/jekyll) supporting haml layouts, see [Henrik Nyh's](http://henrik.nyh.se) repo on [github.com/henrik/jekyll](http://github.com/henrik/jekyll). 
 
 ## credits
 
@@ -11,7 +11,7 @@ The layout is based on Harry Roberts's excellent [typogridphy](http://csswizardr
 
 ## license
 
-The following directories and their contents are copyrighted by me, Jan Berkel, unless otherwise mentioned. You may not reuse anything in them without my permission:
+The following directories and their contents are copyrighted by me, Shane Liebling, unless otherwise mentioned. You may not reuse anything in them without my permission:
 
   * _posts/
   * images/

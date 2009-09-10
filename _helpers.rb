@@ -1,7 +1,7 @@
 require 'cgi'
 require 'lib/slugalizer'
 
-FEED_URL = "http://zegoggl.es/feed.atom"
+FEED_URL = "http://cryptonymo.us/feed.atom"
 GA_ID    = "UA-7557066-1"
 
 module Helpers
