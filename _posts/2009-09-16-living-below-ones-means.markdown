@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Living Below Ones Means"
+title: "Living Below One's Means"
 tags:
   - food
   - memories
