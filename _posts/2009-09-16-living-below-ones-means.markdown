@@ -6,9 +6,9 @@ tags:
   - memories
   - economics
 ---
-My mother's mother grew up in South Dakota during the Depression.  She married my grandfather who was a nurse at the VA after the war.  They had little money, but ended up having six mouths to feed (their own included in that count).  So they did their best.  They bought cheap cuts of meat, they bought in bulk when it was least expensive, and they drank instant iced tea.
+My mother's mother grew up in South Dakota during the Depression.  She married my grandfather who was a nurse at the VA after the war.  They had little money, but ended up having six mouths to feed (their own included).  So they did their best.  They bought cheap cuts of meat, they bought in bulk when it was least expensive, and they drank instant iced tea.
 
-Growing up in an environment like that usually has one of two effects in a child when they become an adult:
+Growing up in an environment like that usually has one of two effects on a child when they become an adult:
 
 1. They continue the mentality and are spendthrifts.
 2. They spend until they can't spend any more.
