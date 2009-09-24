@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "Living Below One's Means"
-tags:
-  - food
-  - memories
-  - economics
+categories: food memories economics
 ---
 My mother's mother grew up in South Dakota during the Depression.  She married my grandfather who was a nurse at the VA after the war.  They had little money, but ended up having six mouths to feed (their own included).  So they did their best.  They bought cheap cuts of meat, they bought in bulk when it was least expensive, and they drank instant iced tea.
 

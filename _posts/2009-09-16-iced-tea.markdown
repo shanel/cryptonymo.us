@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "Iced Tea"
-tags:
-  - food
-  - drinks
-  - memories
+categories: food drinks memories
 ---
 I have an overly active sweet-tooth.  I love chocolate, I love maple syrup, and I love whipped cream.  All of this of course flies in the face of the fact that I love plain old unsweetened iced tea.
 
