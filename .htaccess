@@ -2,6 +2,8 @@ ErrorDocument 404 /404.html
 
 #force canonical hostname
 RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(.*).cryptonymo.us
+RewriteRule ^(.*)$ http://cryptonymo.us/tags.html#$1 [R=301,L]
 RewriteCond %{HTTP_HOST}   !^cryptonymo\.us [NC]
 RewriteCond %{HTTP_HOST}   !^$
-RewriteRule ^/?(.*) http://cryptonymo.us/$1 [L,R=301]
+RewriteRule ^/?(.*) http://cryptonymo.us/tags.html#$1 [L,R=301]
