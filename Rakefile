@@ -66,7 +66,7 @@ title: Tags
       html << '</ul>'
     end
 
-    File.open('tag', 'w+') do |file|
+    File.open('tags.html', 'w+') do |file|
       file.puts html
     end
 
